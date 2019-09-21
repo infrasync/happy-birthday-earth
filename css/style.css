@@ -81,6 +81,10 @@ section.earth {
     border-radius: 17px 17px 0 0;
 }
 
+section.footer {
+
+}
+
 section:nth-child(even) {
     background: white;
 }
@@ -113,13 +117,12 @@ iframe {
 }
 
 .footer h2 {
-    color: white;
+    color: #0c5460;
 }
 .footer {
     border-radius: 0 0 12px 12px;
     padding: 5px;
     text-align: center;
-    background: #0c5460;
     height: 150px;
 }
 
