@@ -4,4 +4,4 @@
 
 **Live site :** https://earth-bd.roon.ninja
 
-**Build with:** ***HTML5 and CSS***
+**Build with:** *HTML5* and *CSS*
