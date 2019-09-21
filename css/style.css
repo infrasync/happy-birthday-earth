@@ -1,0 +1,129 @@
+/* General Styles */
+html {
+    font-size: 100%;
+}
+
+body {
+    background: url("../images/solar.jpg");
+
+    /*FUll Page background*/
+    background-repeat: inherit;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 28px;
+}
+
+/*Heading Style*/
+
+h1, h2 {
+    font-family: 'Mansalva', cursive;
+    color: #0f6674;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/*Container Style*/
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+}
+
+/*Earth Image CSS*/
+
+.earth {
+    line-height: 0;
+}
+
+.earth img {
+    width: 100%;
+    border-radius: 17px 17px 0 0;
+}
+
+/*
+  Section Styles
+*/
+
+section.intro, section.contact {
+    padding: 40px;
+}
+
+section.earth {
+    background: transparent;
+    border-radius: 17px 17px 0 0;
+}
+
+section:nth-child(even) {
+    background: white;
+}
+
+section:nth-child(odd) {
+    background: #dddddd;
+}
+
+/*
+  Aside Styles
+*/
+
+aside.left {
+    float: left;
+}
+
+aside.right {
+    float: right;
+}
+
+aside {
+    margin-right: 1.5rem;
+    margin-bottom: 0.625rem;
+}
+
+/*Footer style*/
+
+iframe {
+    line-height: 0;
+}
+
+.footer h2 {
+    color: white;
+}
+.footer {
+    border-radius: 0 0 12px 12px;
+    padding: 5px;
+    text-align: center;
+    background: #0c5460;
+    height: 150px;
+}
+
+/*Anchor style*/
+a {
+    color: orangered;
+}
